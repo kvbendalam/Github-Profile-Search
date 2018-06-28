@@ -1,0 +1,15 @@
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top bg-dark">
+    <a class="navbar-brand" href="#">GitHub</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="input-group header-search">
+        <div class="input-group-prepend">
+          <span class="input-group-text">Github Search</span>
+        </div>
+        <input #searchKey type="text" class="form-control" placeholder="Search User Name" value="" [(ngModel)]="githubUser.userName"
+        (keyup)="searchUser()">
+      </div>
+    </div>
+</nav>

@@ -1,0 +1,54 @@
+.header-search {
+    color: hsla(0,0%,100%,.75);
+    border-right-color: #282e34;
+    font-size: 13px; 
+    width:  1000px;
+    .form-control, .input-group-text {
+        font-size: 13px;
+    }
+    .input-group-prepend {
+        .input-group-text {
+            background-color: rgba(255, 255, 255, 0.125);
+            border: none;
+            color: #fff;        
+        }
+    }
+    input {
+        background-color: rgba(255,255,255,0.125);
+        border: none;
+        color: #fff;
+        ::placeholder {
+            color: red;
+            opacity: 1; /* Firefox */
+        }
+        
+        :-ms-input-placeholder { /* Internet Explorer 10-11 */
+           color: red;
+        }
+        
+        ::-ms-input-placeholder { /* Microsoft Edge */
+           color: red;
+        }
+    }
+    input[type="text"]:focus {
+        box-shadow: none;
+        border-color: #ced4da;
+    }
+}
+
+
+/* .header-search {
+    color: hsla(0,0%,100%,.75);
+    border-right-color: #282e34;
+    font-size: 13px; 
+    width: 800px; 
+}
+
+.header-search .form-control, .header-search .input-group-text {
+    font-size: 13px;
+}
+
+.header-search input[type="text"]:focus {
+    box-shadow: none;
+    border-color: #ced4da;
+} */

@@ -1,0 +1,41 @@
+{
+    "userinfo": {
+        "login": "pawansingh972",
+        "id": 5110665,
+        "avatar_url": "https://avatars3.githubusercontent.com/u/5110665?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/pawansingh972",
+        "html_url": "https://github.com/pawansingh972",
+        "followers_url": "https://api.github.com/users/pawansingh972/followers",
+        "following_url": "https://api.github.com/users/pawansingh972/following{/other_user}",
+        "gists_url": "https://api.github.com/users/pawansingh972/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/pawansingh972/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/pawansingh972/subscriptions",
+        "organizations_url": "https://api.github.com/users/pawansingh972/orgs",
+        "repos_url": "https://api.github.com/users/pawansingh972/repos",
+        "events_url": "https://api.github.com/users/pawansingh972/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/pawansingh972/received_events",
+        "type": "User",
+        "site_admin": false,
+        "name": "Pawan Singh",
+        "company": null,
+        "blog": "",
+        "location": "Bangalore, India",
+        "email": "pspsingh972@gmail.com",
+        "hireable": null,
+        "bio": "Full Stack JavaScript Developer",
+        "public_repos": 8,
+        "public_gists": 1,
+        "followers": 6,
+        "following": 27,
+        "created_at": "2013-07-29T06:25:40Z",
+        "updated_at": "2018-03-28T08:22:47Z"
+    },
+    "userRepos": {
+
+    }
+}
+
+
+
+
