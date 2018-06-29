@@ -1,9 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { Http } from '@angular/http';
 import { Observable } from 'rxjs/Observable';
-
-// import * as languageColorMap from './languages.json';
-
 import { GithubUser } from './model/IGithubUser';
 
 @Component({

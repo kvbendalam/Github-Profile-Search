@@ -12,7 +12,6 @@ import { GithubUser } from './model/IGithubUser';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
-  // username = 'pawansingh972';
   @Input() githubUser: GithubUser;
 
   constructor(private _githubService: GithubService) {
